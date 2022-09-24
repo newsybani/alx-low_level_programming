@@ -1,24 +1,30 @@
 #include "main.h"
-/**
- *  * print_square - Print a square of length n and with #
- *   * @n : gives the length of the aquare
- *    * Return: nothing
- *     */
-void print_square(int n)
-{
-	int i;
-	int j;
 
-	for (j = 0; j < n; j++)
+/**
+ * print_square - draws a square
+ * @size: length and width of square
+ *
+ * Return: void
+ */
+
+void print_square(int size)
+{
+	int row;
+	int column;
+
+	if (size > 0)
 	{
-		for (i = 0; i < n; i++)
+		for (row = 0; row < size; row++)
 		{
-			_putchar('#');
+			for (column = 0; column < size; column++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
-	if (n <= 0)
+	else
 	{
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
