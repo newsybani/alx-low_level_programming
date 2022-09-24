@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * print_diagonal - prints a diagonal line with some bumps
- *   * @n: number of times the diagonal line is printed
- *    * 
- *     * Return: nothing
- *      */
+ * print_diagonal - prints a diagonal line with some bumps
+ * @n: number of times the diagonal line is printed
+ * 
+ * Return: nothing
+ */
 void print_diagonal(int n)
 {
 	int i;
