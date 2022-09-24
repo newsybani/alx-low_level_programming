@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * print_line - this prints a line of length n times
- *   * @n: this is the length of the line
- *    * Return: nothing
- *     */
+ * print_line - this prints a line of length n times
+ * @n: this is the length of the line
+ * Return: nothing
+ */
 void print_line(int n)
 {
 	int i;
